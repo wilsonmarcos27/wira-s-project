@@ -4,7 +4,7 @@ const Sobre = () => {
     return(
         <div>
             <Header/>
-            <h1>Ola eu sou o sobre teste</h1>
+            <h1 className="bg-black text-2xl text-white">Ola eu sou o sobre teste</h1>
         </div>
     )
 }

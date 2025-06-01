@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom"
+
 export const Header = () => {
     return(
         <div>
@@ -6,10 +8,11 @@ export const Header = () => {
             <div><h1>wilson portifolio</h1></div>
             <div>
                 <nav className="space-x-8">
-                    <a href="/">Home</a>
-                    <a href="">portifolio</a>
-                    <a href="/sobre">sobre</a>
-                    <a href="">Contacto</a>
+                    <Link to={"/"}>Home</Link>
+                    <Link to={"/portifolio"}>Portifolio</Link>
+                    <Link to={"/sobre"}>Sobre</Link>
+                   <Link to={"/contacto"}>Contacto</Link>
+                
                 </nav>
             </div>
                         </div>
